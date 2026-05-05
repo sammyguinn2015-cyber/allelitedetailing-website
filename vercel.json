@@ -1,10 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".output",
+  "outputDirectory": ".output/client",
   "installCommand": "npm install",
-  "framework": null,
-  "regions": ["iad1"],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "framework": "vite"
 }
